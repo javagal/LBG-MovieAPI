@@ -72,7 +72,5 @@ public class MovieDbController {
 		popularToLow.addAll(badList);
 		System.out.println(popularToLow);
 		return popularToLow;
-		
 	}
-	
 }
