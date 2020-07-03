@@ -25,7 +25,6 @@ public class MovieDbController {
 	@GetMapping("/byRateDescending")
 	public List<MovieDbModel> getByRateDescending(){
 		List<MovieDbModel> ratingList=service.getByRateDescending();
-	//	System.out.println("ratingList -->"+ratingList);
 		return ratingList;
 	}
 	
